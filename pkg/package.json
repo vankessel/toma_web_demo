@@ -1,0 +1,14 @@
+{
+  "name": "toma_demo",
+  "version": "0.1.0",
+  "files": [
+    "toma_demo_lib_bg.wasm",
+    "toma_demo_lib.js",
+    "toma_demo_lib.d.ts"
+  ],
+  "module": "toma_demo_lib.js",
+  "types": "toma_demo_lib.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
